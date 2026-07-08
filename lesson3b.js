@@ -10,7 +10,7 @@ function sayHello(){
 //below we invoke/call our function
 sayHello()
 
-for (let i = 0; i <=300; i++){
+for (let i = 0; i <=3; i++){
     console.log(i)
     sayHello()
 }
@@ -27,13 +27,13 @@ for (let i = 0; i <=300; i++){
 
  console.log("================")
 
- // create a function is able to calc the simple interst gained given the 
+ // create a function is able to calc the simple interst gained given the  SI  gained given the principle 50000, rate as 7% time as 8 years
 
  function calculatesimpleinterst(){
     let principal = 50000
     let rate = 7 
     let time =8 
-    let simpleinterest =(principal * rate * time)
+    let simpleinterest =(principal * rate * time)/100
     console.log("The simpleinterest: ", simpleinterest)
  }
  calculatesimpleinterst()

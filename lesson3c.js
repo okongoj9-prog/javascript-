@@ -32,7 +32,9 @@ areaoftriangle(20, 12)
 // given the speed as 180 and the distance covered as 80km, create a function to find the time taken by a vehicle moving from piont A to B
 function timetaken(speed,distance){
     let time = distance/speed
-    console.log("The time taken is: ", time,"seconds")
+    let timeinMinutes = time * 60
+    console.log("The time taken is: ", timeinMinutes,"minutes")
 }
 timetaken(180, 80)
 // research on arrow function, and anonymous functions
+
